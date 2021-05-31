@@ -70,7 +70,7 @@ public class OrderController {
 	}
 
 	@ApiOperation(value = "Returns all orders from the logged in user created between two dates")
-	@PostMapping("/listBetween")
+	@GetMapping("/listBetween")
 	public ResponseEntity<List<MyOrder>> getAllOrdersBetween(
 			@DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss") @ModelAttribute LocalDateTime initDate,
 			@DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss") @ModelAttribute LocalDateTime finalDate) {

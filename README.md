@@ -84,7 +84,7 @@ The API must be used to Create a order based on the users Cart, or list the orde
 
 To acess the code documentation is just run the server, then the documentation will be accessible at:
 
-[![N|Solid](https://i.ibb.co/3WFTxWC/aggregate-sw-hub.png)](https://i.ibb.co/3WFTxWC/aggregate-sw-hub.png)
+[![N|Solid](https://i.ibb.co/ymCswmD/aggregate-sw-hub-2.png)](https://i.ibb.co/ymCswmD/aggregate-sw-hub-2.png)
 
     http://localhost:8080/swagger-ui.html
 
